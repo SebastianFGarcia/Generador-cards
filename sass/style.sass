@@ -1,0 +1,70 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+.container
+    width: 80%
+    margin: 20px auto 0
+
+    .form
+        width: 300px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        gap: 10px
+        margin: 
+            bottom: 20px
+        label
+            font-size: 1.2em
+        input
+            padding: 5px
+            border: 1px solid #ccc
+            border-radius: 5px
+            font-size: 1.2em
+            &:focus
+                outline: none
+        textarea
+            padding: 5px
+            border: 1px solid #ccc
+            border-radius: 5px
+            font-size: 1.2em
+            &:focus
+                outline: none
+        button
+            padding: 5px
+            border: 1px solid #ccc
+            border-radius: 5px
+            font-size: 1.2em
+            cursor: pointer
+            &:hover
+                background-color: #ccc
+                color: #fff
+                border: 1px solid #fff
+    
+    .cards
+        display: grid
+        gap: 20px
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+        .card
+            border: 1px solid #ccc
+            border-radius: 5px
+            padding: 10px
+            text-align: center
+            h1
+                font-size: 1.2em
+                margin-bottom: 20px
+            p
+                margin: 
+                    bottom: 20px
+            button
+                padding: 10px
+                background-color: #d35555
+                border: 1px solid #ccc
+                border-radius: 5px
+                cursor: pointer
+                &:focus
+                    outline: none
+                
+        
+    
